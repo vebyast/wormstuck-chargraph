@@ -15,7 +15,7 @@ digraph {
     Dragon [label="Dragon\ntinMother (TM)",NODE_PERSON,STYLE_NPC,fillcolor="green"];
     Colin [label="Colin/Armsmaster/Halbeard\nmasterofArms (MA)",NODE_PERSON,STYLE_NPC,fillcolor="blue"];
     Rachel2 [label="Mystery Rachel",NODE_PERSON,STYLE_TIMECLONE];
-    White [label="Mrs. White/RACIST BITCH (not that bitch)",NODE_PERSON,STYLE_NPC];
+    White [label="Ms. White/RACIST BITCH (not that bitch)",NODE_PERSON,STYLE_NPC];
     Aishamom [label="Aisha's Mom",NODE_PERSON,STYLE_NPC];
     Roidbaby [label="Aishamom's Boyfriend/Roidbaby",NODE_PERSON,STYLE_NPC];
 
