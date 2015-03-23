@@ -1,0 +1,54 @@
+// attribute list for node type NONPLAYER
+#define NODE_PERSON shape=box,style=filled
+#define STYLE_NPC fillcolor="#aaaaaa",color="red",penwidth=5
+#define STYLE_TIMECLONE fillcolor="#aaaaaa",color="black"
+#define NODE_SPRITE shape=ellipse,style=filled
+
+digraph {
+    Brian [label="Brian/Grue\ndustlessRuthless (DR)",NODE_PERSON,fillcolor="white"];
+    Taylor [label="Taylor\njustaChatter (JC)",NODE_PERSON,fillcolor="yellow"];
+    Lisa [label="Lisa/Tattletale\nvulpineGrin (VG)",NODE_PERSON,fillcolor="purple"];
+    Rachel [label="Rachel/Bitch\nimthefuckingBitch (IB)",NODE_PERSON,fillcolor="red"];
+    Aisha [label="Aisha\nblackasmyCockerspaniel (BC)",NODE_PERSON,fillcolor="white"];
+    Alec [label="Alec/Jean-Paul Vasil/Regent\nroyalBitch (RB)",NODE_PERSON,fillcolor="pink"];
+
+    Dragon [label="Dragon\ntinMother (TM)",NODE_PERSON,STYLE_NPC,fillcolor="green"];
+    Colin [label="Colin/Armsmaster/Halbeard\nmasterofArms (MA)",NODE_PERSON,STYLE_NPC,fillcolor="blue"];
+    Rachel2 [label="Mystery Rachel",NODE_PERSON,STYLE_TIMECLONE];
+    White [label="Mrs. White/RACIST BITCH (not that bitch)",NODE_PERSON,STYLE_NPC];
+    Aishamom [label="Aisha's Mom",NODE_PERSON,STYLE_NPC];
+    Roidbaby [label="Aishamom's Boyfriend/Roidbaby",NODE_PERSON,STYLE_NPC];
+
+    Dannysprite [label="Dannysprite\nPrototyped: Pet Sematary, Daniel Hebert",NODE_SPRITE];
+    // Lisasprite [label="Lisa's Sprite\nPrototyped: Pillow",NODE_SPRITE];
+    // Rachelsprite [label="Rachel's Sprite: A Red Cat\nPrototyped: A Dog Treat",NODE_SPRITE];
+    // Aishasprite [label="Aisha's Sprite\nPrototyped: Drugs",NODE_SPRITE];
+    // Briansprite [label="Brian's Sprite\nPrototyped: Shaving Cream",NODE_SPRITE];
+    // Alecsprite [label="Alec's Sprite\nPrototyped: Alec's Wonderful Couch",NODE_SPRITE];
+    
+    Taylor -> Dannysprite;
+    // Lisa -> Lisasprite;
+    // Rachel -> Rachelsprite;
+    // Aisha -> Aishasprite;
+    // Brian -> Briansprite;
+    // Alec -> Alecsprite;
+    
+    Taylor -> Alec;
+    Rachel -> Aisha;
+    Alec -> Rachel;
+    Lisa -> Brian;
+    Aisha -> Lisa;
+    Brian -> Taylor;
+
+    Lisa -> Colin;
+    Colin -> Dragon;
+
+    Brian -> Rachel2;
+    Brian -> White;
+
+    Aisha -> Aishamom;
+    Aisha -> Roidbaby;
+}
+
+
+
