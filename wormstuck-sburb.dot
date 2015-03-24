@@ -5,12 +5,12 @@
 #define NODE_SPRITE shape=ellipse,style=filled
 
 digraph {
-    Brian [label="Brian/Grue\ndustlessRuthless (DR)",NODE_PERSON,fillcolor="white"];
     Taylor [label="Taylor\njustaChatter (JC)",NODE_PERSON,fillcolor="yellow"];
     Lisa [label="Lisa/Tattletale\nvulpineGrin (VG)",NODE_PERSON,fillcolor="purple"];
     Rachel [label="Rachel/Bitch\nimthefuckingBitch (IB)",NODE_PERSON,fillcolor="red"];
     Aisha [label="Aisha\nblackasmyCockerspaniel (BC)",NODE_PERSON,fillcolor="white"];
     Alec [label="Alec/Jean-Paul Vasil/Regent\nroyalBitch (RB)",NODE_PERSON,fillcolor="pink"];
+    Brian [label="Brian/Grue\ndustlessRuthless (DR)",NODE_PERSON,fillcolor="white"];
 
     Dragon [label="Dragon\ntinMother (TM)",NODE_PERSON,STYLE_NPC,fillcolor="green"];
     Colin [label="Colin/Armsmaster/Halbeard\nmasterofArms (MA)",NODE_PERSON,STYLE_NPC,fillcolor="blue"];
