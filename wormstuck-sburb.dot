@@ -14,17 +14,16 @@ digraph {
 
     Dragon [label="Dragon\ntinMother (TM)",NODE_PERSON,STYLE_NPC,fillcolor="green"];
     Colin [label="Colin/Armsmaster/Halbeard\nmasterofArms (MA)",NODE_PERSON,STYLE_NPC,fillcolor="blue"];
-    Rachel2 [label="Mystery Rachel",NODE_PERSON,STYLE_TIMECLONE];
     White [label="Ms. White/RACIST BITCH (not that bitch)",NODE_PERSON,STYLE_NPC];
     Aishamom [label="Aisha's Mom",NODE_PERSON,STYLE_NPC];
     Roidbaby [label="Aishamom's Boyfriend/Roidbaby",NODE_PERSON,STYLE_NPC];
     Dinah [label="Dinah?/Backpack Girl",NODE_PERSON,STYLE_NPC];
 
     Dannysprite [label="Dannysprite\nPrototyped: Pet Sematary, Daniel Hebert",NODE_SPRITE];
+    Rachelsprite [label="Mystery Rachelsprite\nanotherBitch (AB)\nPrototyped: Shaving Cream, Mystery Rachel",NODE_SPRITE,fillcolor="darkgoldenrod1"];
     // Lisasprite [label="Lisa's Sprite\nPrototyped: Pillow",NODE_SPRITE];
     // Rachelsprite [label="Rachel's Sprite: A Red Cat\nPrototyped: A Dog Treat",NODE_SPRITE];
     // Aishasprite [label="Aisha's Sprite\nPrototyped: Drugs",NODE_SPRITE];
-    // Briansprite [label="Brian's Sprite\nPrototyped: Shaving Cream",NODE_SPRITE];
     // Alecsprite [label="Alec's Sprite\nPrototyped: Alec's Wonderful Couch",NODE_SPRITE];
     
     Taylor -> Dannysprite;
@@ -44,7 +43,7 @@ digraph {
     Lisa -> Colin;
     Colin -> Dragon;
 
-    Brian -> Rachel2;
+    Brian -> Rachelsprite;
     Brian -> White;
 
     Aisha -> Aishamom;
