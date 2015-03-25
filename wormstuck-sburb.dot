@@ -17,7 +17,7 @@ digraph {
     White [label="Ms. White/RACIST BITCH (not that bitch)",NODE_PERSON,STYLE_NPC];
     Aishamom [label="Aisha's Mom",NODE_PERSON,STYLE_NPC];
     Roidbaby [label="Aishamom's Boyfriend/Roidbaby",NODE_PERSON,STYLE_NPC];
-    Dinah [label="Dinah?/Backpack Girl",NODE_PERSON,STYLE_NPC];
+    Dinah [label="Dinah",NODE_PERSON,STYLE_NPC];
 
     Dannysprite [label="Dannysprite\nPrototyped: Pet Sematary, Daniel Hebert",NODE_SPRITE];
     Rachelsprite [label="Mystery Rachelsprite\nanotherBitch (AB)\nPrototyped: Shaving Cream, Mystery Rachel",NODE_SPRITE,fillcolor="darkgoldenrod1"];
