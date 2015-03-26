@@ -5,12 +5,12 @@
 #define NODE_SPRITE shape=ellipse,style=filled
 
 digraph {
-    Taylor [label="Taylor\njustaChatter (JC)",NODE_PERSON,fillcolor="yellow"];
     Lisa [label="Lisa/Tattletale\nvulpineGrin (VG)",NODE_PERSON,fillcolor="purple"];
-    Rachel [label="Rachel/Bitch\nimthefuckingBitch (IB)",NODE_PERSON,fillcolor="red"];
+    Taylor [label="Taylor\njustaChatter (JC)",NODE_PERSON,fillcolor="yellow"];
     Aisha [label="Aisha\nblackasmyCockerspaniel (BC)",NODE_PERSON,fillcolor="white"];
     Alec [label="Alec/Jean-Paul Vasil/Regent\nroyalBitch (RB)",NODE_PERSON,fillcolor="pink"];
     Brian [label="Brian/Grue\ndustlessRuthless (DR)",NODE_PERSON,fillcolor="white"];
+    Rachel [label="Rachel/Bitch\nimthefuckingBitch (IB)",NODE_PERSON,fillcolor="red"];
 
     Dragon [label="Dragon\ntinMother (TM)",NODE_PERSON,STYLE_NPC,fillcolor="green"];
     Colin [label="Colin/Armsmaster/Halbeard\nmasterofArms (MA)",NODE_PERSON,STYLE_NPC,fillcolor="blue"];
@@ -18,6 +18,7 @@ digraph {
     Aishamom [label="Aisha's Mom",NODE_PERSON,STYLE_NPC];
     Roidbaby [label="Aishamom's Boyfriend/Roidbaby",NODE_PERSON,STYLE_NPC];
     Dinah [label="Dinah",NODE_PERSON,STYLE_NPC];
+    OniLee [label="Oni Lee",NODE_PERSON,STYLE_NPC];
 
     Dannysprite [label="Dannysprite\nPrototyped: Pet Sematary, Daniel Hebert",NODE_SPRITE];
     Rachelsprite [label="Mystery Rachelsprite\nanotherBitch (AB)\nPrototyped: Shaving Cream, Mystery Rachel",NODE_SPRITE,fillcolor="darkgoldenrod1"];
@@ -33,6 +34,8 @@ digraph {
     // Brian -> Briansprite;
     // Alec -> Alecsprite;
     
+    Rachel -> OniLee;
+
     Taylor -> Alec;
     Rachel -> Aisha;
     Alec -> Rachel;
@@ -50,7 +53,7 @@ digraph {
     Aisha -> Roidbaby;
 
     Alec -> Dinah;
-    
+
 }
 
 
